@@ -1,4 +1,4 @@
-# 🚀 Pinterest Clone App – HireHub Style Full Stack Social Platform
+# 🚀 Pinterest Clone App –  Full Stack Social Platform
 
 ![Website Preview](https://res.cloudinary.com/dgagbheuj/image/upload/v1774326142/tar7aojmlsuup8hmuntl.png)
 
