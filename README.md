@@ -165,7 +165,11 @@ frontend/
     │
     ├── components/   # Reusable UI components (buttons, cards, inputs, etc.)
     │
-    ├── libs/         # Shared utilities & helpers
+    ├── functions/  # API handler functions (wrap API calls + business-side request logic)
+    │
+    ├── hooks/        # Custom React hooks (logic reuse)
+    │
+    ├── pages/        # Application pages (main screens / routes views)
     │
     ├── routes/       # Routing configuration (React Router / Next routing logic / Protected Router)
     │
@@ -177,7 +181,7 @@ frontend/
     │
     ├── types/        # TypeScript types & interfaces
     │
-    └── page.tsx       # Root application entry point
+    └── App.tsx       # Root application entry point
 ```
 ---
 
