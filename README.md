@@ -138,7 +138,7 @@ Role-based access control system:
 
 ---
 
-## 📂 Project Structure (HireHub-Style Architecture)
+## 📂 Project Structure 
 
 #### BackEnd
 ```
@@ -165,11 +165,7 @@ frontend/
     │
     ├── components/   # Reusable UI components (buttons, cards, inputs, etc.)
     │
-    ├── functions/  # API handler functions (wrap API calls + business-side request logic)
-    │
-    ├── hooks/        # Custom React hooks (logic reuse)
-    │
-    ├── pages/        # Application pages (main screens / routes views)
+    ├── libs/         # Shared utilities & helpers
     │
     ├── routes/       # Routing configuration (React Router / Next routing logic / Protected Router)
     │
@@ -181,7 +177,7 @@ frontend/
     │
     ├── types/        # TypeScript types & interfaces
     │
-    └── App.tsx       # Root application entry point
+    └── page.tsx       # Root application entry point
 ```
 ---
 
@@ -226,7 +222,7 @@ npm run start:dev
 ## FrontEnd
 ```bash
 cd frontend
-npm instal
+npm install
 npm run dev
 ```
 
