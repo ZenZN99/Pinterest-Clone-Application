@@ -140,6 +140,7 @@ Role-based access control system:
 
 ## 📂 Project Structure (HireHub-Style Architecture)
 
+#### BackEnd
 ```
 backend/
 │
@@ -154,6 +155,34 @@ backend/
 └── main.ts        # Application entry point
 ```
 
+#### FrontEnd
+```
+frontend/
+│
+└── src/
+    │
+    ├── apis/         # API layer  fetch requests - backend communication)
+    │
+    ├── components/   # Reusable UI components (buttons, cards, inputs, etc.)
+    │
+    ├── functions/  # API handler functions (wrap API calls + business-side request logic)
+    │
+    ├── hooks/        # Custom React hooks (logic reuse)
+    │
+    ├── pages/        # Application pages (main screens / routes views)
+    │
+    ├── routes/       # Routing configuration (React Router / Next routing logic / Protected Router)
+    │
+    ├── services/     # Business logic layer (API orchestration, feature services)
+    │
+    ├── socket/       # WebSocket / Socket.io client setup & events
+    │
+    ├── stores/       # Global state management (Zustand)
+    │
+    ├── types/        # TypeScript types & interfaces
+    │
+    └── App.tsx       # Root application entry point
+```
 ---
 
 ## ⚙️ Environment Variables
