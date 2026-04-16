@@ -133,3 +133,110 @@ The system supports role-based access control:
 ---
 
 ## 📂 Project Structure (HireHub Style Architecture)
+
+```
+backend/
+│
+├── controllers/   # Handle incoming requests (routes layer)
+├── guards/        # Auth & role protection
+├── modules/       # Feature modules (Auth, Users, Projects, etc.)
+├── schemas/       # Database models (MongoDB / Mongoose)
+├── services/      # Business logic layer
+├── libs/          # Shared utilities & helpers
+├── token/         # JWT & authentication utilities
+├── gateways/      # WebSocket (real-time features)
+└── main.ts        # Application entry point
+```
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env` file:
+
+```env
+PORT=8080
+
+DATABASE_URL=your_mongodb_uri
+ADMIN_EMAIL=admin_email_account
+ADMIN_PASSWORD=admin_password_account
+JWT_SECRET=your_secret
+JWT_EXPIRES_IN=20d
+
+CLOUDINARY_CLOUD_NAME=your_name
+CLOUDINARY_API_KEY=your_key
+CLOUDINARY_API_SECRET=your_secret
+
+REDIS_URL=your_redis_url
+
+```
+---
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+
+```bash
+git clone https://github.com/ZenZN99/Pinterest-Clone-Application
+cd Pinterest-Clone-Application
+```
+
+## BackEnd
+```bash
+cd backend
+npm install
+npm run start:dev
+```
+
+## FrontEnd
+```bash
+cd frontend
+npm instal
+npm run dev
+```
+
+---
+## 🧪 Testing
+
+This project was tested using Postman and manual testing to ensure full system reliability.
+
+## 🔹Tools Used
+Postman (API testing)
+Socket.IO Client (Realtime testing)
+MongoDB Compass (Database verification)
+## 🔹 Tested Features
+Authentication flow (JWT)
+Pins CRUD operations
+Comments & replies system
+Likes & follow system
+Real-time chat functionality
+Notifications system
+Admin moderation tools
+## 🔹 WebSocket Testing
+Live messaging
+Typing indicators
+Online/offline users
+Real-time notifications
+---
+
+## 🚀 Future Improvements
+- 🔍 Advanced search & filtering system
+- 📊 Analytics dashboard
+- 🤖 AI-based content recommendations
+- 📁 CDN optimization for media uploads
+- 🌍 Multi-language support
+- ⚡ Performance caching improvements (Redis scaling)
+---
+## 📌 Notes
+Built with scalable NestJS modular architecture (HireHub-style)
+Redis optimized for performance
+Fully real-time system using WebSockets
+Production-ready backend design
+👨‍💻 Author
+
+Built by: Full-Stack Backend Engineer
+Focused on scalable, production-grade backend systems using modern architectures.
+
+⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
