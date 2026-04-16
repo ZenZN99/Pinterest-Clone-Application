@@ -204,27 +204,38 @@ npm run dev
 ---
 ## 🧪 Testing
 
-This project was tested using Postman and manual testing to ensure full system reliability.
+This project was tested using **Postman** and manual testing to ensure full system reliability.
 
-## 🔹Tools Used
-Postman (API testing)
-Socket.IO Client (Realtime testing)
-MongoDB Compass (Database verification)
-## 🔹 Tested Features
-Authentication flow (JWT)
-Pins CRUD operations
-Comments & replies system
-Likes & follow system
-Real-time chat functionality
-Notifications system
-Admin moderation tools
-## 🔹 WebSocket Testing
-Live messaging
-Typing indicators
-Online/offline users
-Real-time notifications
 ---
 
+### 🔹 Tools Used
+
+- Postman (API testing)
+- Socket.IO Client (Real-time testing)
+- MongoDB Compass (Database verification)
+
+---
+
+### 🔹 Tested Features
+
+- Authentication flow (JWT)
+- Pins CRUD operations
+- Comments & replies system
+- Likes & follow system
+- Real-time chat functionality
+- Notifications system
+- Admin moderation tools
+
+---
+
+### 🔹 WebSocket Testing
+
+- Live messaging
+- Typing indicators
+- Online/offline users tracking
+- Real-time notifications delivery
+
+---
 ## 🚀 Future Improvements
 - 🔍 Advanced search & filtering system
 - 📊 Analytics dashboard
